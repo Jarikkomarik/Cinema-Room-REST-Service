@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-01T17:28:59" hostname="Yoels-MacBook-Pro.local" time="5.822">
+  <properties/>
+  <testcase name="start" classname="Tests" time="5.822"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.6)
+
+2022-02-01 18:29:00.800  INFO 76868 --- [    Test worker] task.Main                                : Starting Main using Java 17.0.1 on Yoels-MacBook-Pro.local with PID 76868 (started by yoelufland in /Users/yoelufland/IdeaProjects/Cinema Room REST Service/Topics/Handling requests with bodies/Receiving and returning products)
+2022-02-01 18:29:00.808  INFO 76868 --- [    Test worker] task.Main                                : No active profile set, falling back to default profiles: default
+2022-02-01 18:29:03.300  INFO 76868 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+2022-02-01 18:29:03.312  INFO 76868 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-01 18:29:03.313  INFO 76868 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-02-01 18:29:03.418  INFO 76868 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-01 18:29:03.419  INFO 76868 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2489 ms
+2022-02-01 18:29:04.470  INFO 76868 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-02-01 18:29:04.551  INFO 76868 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
+2022-02-01 18:29:04.569  INFO 76868 --- [    Test worker] task.Main                                : Started Main in 4.595 seconds (JVM running for 5.542)
+2022-02-01 18:29:05.084  INFO 76868 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-01 18:29:05.086  INFO 76868 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-01 18:29:05.093  INFO 76868 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+?[1;31m
+Start test 2?[0m
+?[1;31m
+Start test 3?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

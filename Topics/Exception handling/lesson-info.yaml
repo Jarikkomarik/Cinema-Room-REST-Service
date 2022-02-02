@@ -1,0 +1,6 @@
+content:
+- Theory
+- '@ResponseStatus annotation'
+- Throw an exception
+- Add an HttpStatus to response
+- Improve the program

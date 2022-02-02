@@ -1,0 +1,11 @@
+
+`
+java:S3358
+"DExtract this nested ternary operation into an independent statement.(èôü8•ğ¨¹é/
+D
+java:S1125	"'Remove the unnecessary boolean literal.(Ç¶çŸ8•ğ¨¹é/
+C
+java:S1125
+"'Remove the unnecessary boolean literal.(èôü8•ğ¨¹é/
+0
+java:S1220""Move this file to a named package.

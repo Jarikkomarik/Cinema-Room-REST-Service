@@ -1,0 +1,10 @@
+
+^
+java:S2133"ARemove this object instantiation and use "Scanner.class" instead.(óÎ¡8¢šº·ç/
+X
+java:S2094
+"BRemove this empty class, write its code or make it an "interface".(Ã™ÄÏ
+0
+java:S1220""Move this file to a named package.
+[
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(óÎ¡

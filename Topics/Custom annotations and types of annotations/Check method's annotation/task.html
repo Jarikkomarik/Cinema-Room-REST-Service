@@ -1,0 +1,11 @@
+<h2>Check method's annotation</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Imagine there is the <code class="language-java">@Authorized</code> annotation, which can be placed on methods. If you were writing this annotation's processing code, how would you check if the <code class="language-java">@Authorized</code> is present on the processing object's class method?</p> 
+  <p>Let the code look like this:</p> 
+  <pre><code class="language-java">Method method = TestClass.class.getMethod("getAllUsers");
+result = ...</code></pre> 
+  <p>Now write the missing part that will check if <code class="language-java">method</code> actually has the annotation. Remember the <code class="language-java">;</code> symbol at the end of the line.</p>
+ </body>
+</html>

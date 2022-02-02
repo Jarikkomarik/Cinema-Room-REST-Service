@@ -1,0 +1,21 @@
+content:
+- Dealing with modifiers
+- Iterating over arrays
+- Manipulating fields and methods
+- Detecting annotations
+- The Set interface
+- Custom annotations and types of annotations
+- Command
+- Observer
+- Builder
+- Singleton
+- Decorator
+- BigDecimal
+- Debugging techniques
+- Class Loader
+- Relational operators
+- Getting data from REST
+- Posting and deleting data via REST
+- The Map interface
+- Handling requests with bodies
+- Exception handling
