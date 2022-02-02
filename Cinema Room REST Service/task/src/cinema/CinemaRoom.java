@@ -26,7 +26,6 @@ public class CinemaRoom {
                 String uuid = UUID.randomUUID().toString();
                 while (ticketMap.containsKey(uuid) == true) {
                     uuid = UUID.randomUUID().toString();
-                    System.out.println("!!!!");
                 }
                 Seat temp = new Seat(i, y, uuid);
                 ticketMap.put(uuid, temp);
