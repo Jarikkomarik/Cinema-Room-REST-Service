@@ -1,0 +1,78 @@
+A simple Spring REST service that is handling HTTP requesets.
+
+Requests:
+-----------------------------------------------------------------------------------------------------------
+GET /seats - return list of seats in CinemaRoom.
+
+request: http://localhost:28852/seats
+
+response: 
+{
+"total_rows": 9,
+"total_columns": 9,
+"available_seats": [
+    {
+        "row": 1,
+        "column": 1,
+        "price": 10
+    },
+    {
+        "row": 1,
+        "column": 2,
+        "price": 10
+     }, . . .      ]
+}
+
+-----------------------------------------------------------------------------------------------------------
+POST /stats - return statistics of CinemaRoom and validates password from request prarameters. 
+
+request: http://localhost:28852/stats?password=super_secret
+
+response:
+{
+    "current_income": 0,
+    "number_of_available_seats": 81,
+    "number_of_purchased_tickets": 0
+}
+
+-----------------------------------------------------------------------------------------------------------
+POST /purchase - Purchasing a ticket. Reciving html body with row and column and return token, place and price of a ticket. 
+In case of error returns error message.
+
+request: http://localhost:28852/purchase
+{
+    "row": 3,
+    "column": 3
+}
+
+response: 
+{
+    "token": "0299b09f-7ff4-4a38-b0e3-ebaf0d33168e",
+    "ticket": {
+        "row": 3,
+        "column": 3,
+        "price": 10
+    }
+}
+
+
+-----------------------------------------------------------------------------------------------------------
+POST /return - Returning a ticket. Reciving html body with a token of a ticket. Setting setting place available and returning ticket.
+
+request: http://localhost:28852/return
+{
+    "token": "be54397f-a3f0-479d-85b5-f006f87b87c3"
+}
+
+Response: 
+{
+    "returned_ticket": {
+        "row": 3,
+        "column": 3,
+        "price": 10
+    }
+}
+
+
+
+
